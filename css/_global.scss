@@ -1,0 +1,42 @@
+body {
+  color: #454545;
+}
+li {
+  list-style-type: none;
+}
+p {
+  line-height: 2rem;
+}
+section {
+  width: 1025px;
+  margin: auto;
+}
+/*メインカラー*/
+.primary-color {
+  color: #7ad6bb;
+}
+
+.text-location {
+  text-align: center;
+}
+.decolation-title {
+  font-size: 60px;
+  position: relative;
+  color: black;
+  &::after {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-weight: bold;
+    text-shadow: 3px -3px 0 #000;
+  }
+}
+
+.sub-title-text-size {
+  font-size: 32px;
+}
+.figure-text-size {
+  font-size: 100px;
+  font-weight: bold;
+  color: black;
+}

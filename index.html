@@ -17,38 +17,35 @@
   </head>
   <body>
     <header>
-      <div class="logo">LOGO</div>
-    </header>
-    <main>
       <!--Youtube動画-->
       <div class="video-wrap">
         <div id="youtube-area">
           <div
             id="youtube"
             data-property="{
-              videoURL: 'https://www.youtube.com/embed/yJjaQExOPPY',
-              containment: '#youtube-area',
-              autoPlay: true,
-              loop: 1,
-              mute: true,
-              startAt: 0,
-              opacity: 1,
-              showControls: false,
-              showYTLogo: false,
-              onReady: function( player ) {
-                $('.loading').hide('slow');
-              }
-            }"
+                    videoURL: 'https://www.youtube.com/embed/yJjaQExOPPY',
+                    containment: '#youtube-area',
+                    autoPlay: true,
+                    loop: 1,
+                    mute: true,
+                    startAt: 0,
+                    opacity: 1,
+                    showControls: false,
+                    showYTLogo: false,
+                    onReady: function( player ) {
+                      $('.loading').hide('slow');
+                    }
+                  }"
           ></div>
           <div class="loading">Loading...</div>
         </div>
+        <div class="logo">LOGO</div>
         <h1 class="site-title h1-title primary-color">
           Polite &<br />
           Nice code
         </h1>
       </div>
-      <!--Youtube動画-->
-    </main>
+    </header>
     <section class="introduce">
       <div class="into-container">
         <h1 class="inner-intro text-location sub-title-text-size">

@@ -1,15 +1,5 @@
-.introduce {
-  height: 100vh;
-  position: relative;
-}
-
 .into-container {
   margin: auto;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 815px; /*widthの指定は必須*/
   height: 600px; /*heightの指定は必須*/
   .inner-intro {

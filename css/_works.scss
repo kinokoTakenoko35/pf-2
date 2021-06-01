@@ -13,18 +13,18 @@
     position: relative;
   }
   .timeline-content {
-    width: 75%;
+    width: 100%;
     float: left;
-    border-left: 3px #e5e5d1 solid;
+    border-left: 3px #707070 solid;
     padding-left: 30px;
   }
   .timeline-content:before {
     content: "";
-    width: 12px;
-    height: 12px;
-    background: #6fc173;
+    width: 40px;
+    height: 40px;
+    background: #7ad6bb;
     position: absolute;
-    left: 106px;
+    left: 10px;
     top: 24px;
     border-radius: 100%;
   }
